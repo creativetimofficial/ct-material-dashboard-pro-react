@@ -1,7 +1,7 @@
 # [Material Dashboard PRO React - Premium Material-UI Design Admin](https://creativetimofficial.github.io/material-dashboard-pro-react/#/dashboard)
 [![version][version-badge]][CHANGELOG]
 
-![alt text](https://s3.amazonaws.com/creativetim_bucket/products/80/original/opt_mdpr_thumbnail.jpg "Material Dashboard PRO React")
+![alt text](https://s3.amazonaws.com/creativetim_bucket/products/80/original/opt_mdp_react_thumbnail.jpg "Material Dashboard PRO React")
 
 Material Dashboard PRO React is a Premium Material-UI Admin with a fresh, new design inspired by Google's Material Design. We are very excited to introduce our take on the material concepts through an easy to use and beautiful set of components. Material Dashboard PRO React was built over the popular Material-UI framework.
 
