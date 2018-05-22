@@ -1,5 +1,10 @@
 # Change Log
 
+## [1.1.1] 2018-05-22
+### Bug Fixing
+- Changed links for live preview, online documentation and issues
+- Changed links from `http` to `https`
+
 ## [1.1.0] 2018-04-16
 ### Bug Fixing
 - Changes caused by the upgrade of `material-ui`

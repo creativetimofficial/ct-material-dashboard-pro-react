@@ -1,13 +1,13 @@
-# [Material Dashboard PRO React - Premium Material-UI Design Admin](https://timecreative.github.io/material-dashboard-pro-react/)
+# [Material Dashboard PRO React - Premium Material-UI Design Admin](https://creativetimofficial.github.io/material-dashboard-pro-react/#/dashboard)
 [![version][version-badge]][CHANGELOG]
 
-![alt text](https://s3.amazonaws.com/creativetim_bucket/products/80/original/opt_mdp_react_thumbnail.jpg "Material Dashboard PRO React")
+![alt text](https://s3.amazonaws.com/creativetim_bucket/products/80/original/opt_mdpr_thumbnail.jpg "Material Dashboard PRO React")
 
 Material Dashboard PRO React is a Premium Material-UI Admin with a fresh, new design inspired by Google's Material Design. We are very excited to introduce our take on the material concepts through an easy to use and beautiful set of components. Material Dashboard PRO React was built over the popular Material-UI framework.
 
 Material Dashboard PRO React makes use of light, surface and movement. The general layout resembles sheets of paper following multiple different layers, so that the depth and order is obvious. The navigation stays mainly on the left sidebar and the content is on the right inside the main panel.
 
-Material Dashboard PRO React comes with 7 color filter choices for the links of the Sidebar (`blue`, `green`, `orange`, `red`, `purple`, `rose`, `white`), 3 filter color choices for the background of the Sidebar (`white`, `blue`, `black`), an option to have a background image on the Sidebar and 6 color filter choices for the card headers (`blue`, `green`, `orange`, `red`, `purple`, `rose`).
+Material Dashboard PRO React comes with 7 color filter choices for the links of the Sidebar (`blue`, `green`, `orange`, `red`, `purple`, `rose`, `white`), 3 filter color choices for background of the Sidebar (`white`, `blue`, `black`), an option to have a background image on the Sidebar and 6 color filter choices the card headers (`blue`, `green`, `orange`, `red`, `purple`, `rose`).
 
 Material Dashboard PRO React uses a framework built by our friend [Olivier - Material-UI](https://github.com/mui-org/material-ui), who did an amazing job creating the backbone for the material effects, animations, ripples and transitions. Big thanks to his team for the effort and forward thinking they put into it.
 
@@ -20,16 +20,16 @@ Special thanks go to:
 + [React-google-maps](https://github.com/tomchentw/react-google-maps) for the nice and easy to use map components.
 + [React-jvectormap](https://github.com/kadoshms/react-jvectormap) for the nice vector map components.
 + [React-nouislider](https://github.com/algolia/react-nouislider) for the nice and clean slider.
-+ [React-tables](https://react-table.js.org/#/story/simple-table) for the nice and clean table components.
++ [React-tables](https://react-table.js.org/#/story/simple-table) for the nice and clean slider.
 + [React-tagsinput](https://github.com/olahol/react-tagsinput) for the easy and beatiful to use tags components.
 
 ## Links:
 
-+ [Live Preview](https://timcreative.github.io/material-dashboard-pro-react/)
-+ [Material Dashboard Free React](https://creativetimofficial.github.io/material-dashboard-react/)
++ [Live Preview](https://creativetimofficial.github.io/material-dashboard-pro-react/#/dashboard)
++ [Material Dashboard Free React]((https://creativetimofficial.github.io/material-dashboard-react/)
 + [Material Dashboard PRO BS4 Html](https://demos.creative-tim.com/material-dashboard-pro/examples/dashboard.html)
-+ [Material Dashboard PRO BS3 Html](http://demos.creative-tim.com/bs3/material-dashboard-pro/examples/dashboard.html)
-+ [Material Dashboard Free Html](http://demos.creative-tim.com/material-dashboard/examples/dashboard.html)
++ [Material Dashboard PRO BS3 Html](https://demos.creative-tim.com/bs3/material-dashboard-pro/examples/dashboard.html)
++ [Material Dashboard Free Html](https://demos.creative-tim.com/material-dashboard/examples/dashboard.html)
 + [Material Dashboard PRO Angular](https://md-pro-angular.creative-tim.com/dashboard)
 + [Material Dashboard Free Angular](http://md-angular2.creative-tim.com/dashboard)
 
@@ -248,4 +248,4 @@ Instagram: <https://instagram.com/creativetimofficial>
 
 [CHANGELOG]: ./CHANGELOG.md
 
-[version-badge]: https://img.shields.io/badge/version-1.1.0-blue.svg
+[version-badge]: https://img.shields.io/badge/version-1.1.1-blue.svg
