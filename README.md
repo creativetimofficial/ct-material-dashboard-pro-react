@@ -1,7 +1,7 @@
 # [Material Dashboard PRO React - Premium Material-UI Design Admin](https://creativetimofficial.github.io/material-dashboard-pro-react/#/dashboard)
 [![version][version-badge]][CHANGELOG]
 
-![alt text](https://s3.amazonaws.com/creativetim_bucket/products/80/original/opt_mdp_react_thumbnail.jpg "Material Dashboard PRO React")
+![alt text](https://s3.amazonaws.com/creativetim_bucket/products/80/original/opt_mdp_react_thumbnail.jpg?1522160852 "Material Dashboard PRO React")
 
 Material Dashboard PRO React is a Premium Material-UI Admin with a fresh, new design inspired by Google's Material Design. We are very excited to introduce our take on the material concepts through an easy to use and beautiful set of components. Material Dashboard PRO React was built over the popular Material-UI framework.
 
@@ -65,13 +65,16 @@ Within the download you'll find the following directories and files:
 ```
 material-dashboard-pro-react
 │
-├── README.md
 ├── CHANGELOG.md
-├── .env
-├── package.json
+├── README.md
 ├── documentation
 │   ├── assets
+│   │   ├── css
+│   │   ├── img
+│   │   │   └── faces
+│   │   └── js
 │   └── tutorial-components.html
+├── package.json
 ├── public
 │   ├── favicon.ico
 │   ├── index.html
@@ -80,7 +83,8 @@ material-dashboard-pro-react
     ├── assets
     │   ├── img
     │   │   ├── faces
-    │   │   └── flags
+    │   │   ├── flags
+    │   │   └── logo-white.svg
     │   ├── jss
     │   │   ├── material-dashboard-pro-react
     │   │   │   ├── components
@@ -97,30 +101,26 @@ material-dashboard-pro-react
     │   │   └── Accordion.jsx
     │   ├── Badge
     │   │   └── Badge.jsx
-    │   ├── Cards
-    │   │   ├── ChartCard.jsx
-    │   │   ├── FullHeaderCard.jsx
-    │   │   ├── HeaderCard.jsx
-    │   │   ├── IconCard.jsx
-    │   │   ├── ImagePriceCard.jsx
-    │   │   ├── LoginCard.jsx
-    │   │   ├── PricingCard.jsx
-    │   │   ├── ProfileCard.jsx
-    │   │   ├── RegularCard.jsx
-    │   │   ├── StatsCard.jsx
-    │   │   ├── TasksCard.jsx
-    │   │   └── TestimonialCard.jsx
+    │   ├── Card
+    │   │   ├── Card.jsx
+    │   │   ├── CardAvatar.jsx
+    │   │   ├── CardBody.jsx
+    │   │   ├── CardFooter.jsx
+    │   │   ├── CardHeader.jsx
+    │   │   ├── CardIcon.jsx
+    │   │   └── CardText.jsx
     │   ├── Clearfix
     │   │   └── Clearfix.jsx
     │   ├── CustomButtons
-    │   │   ├── Button.jsx
-    │   │   └── IconButton.jsx
+    │   │   └── Button.jsx
     │   ├── CustomDropdown
     │   │   └── CustomDropdown.jsx
     │   ├── CustomInput
     │   │   └── CustomInput.jsx
     │   ├── CustomLinearProgress
     │   │   └── CustomLinearProgress.jsx
+    │   ├── CustomTabs
+    │   │   └── CustomTabs.jsx
     │   ├── CustomUpload
     │   │   ├── ImageUpload.jsx
     │   │   └── PictureUpload.jsx
@@ -128,7 +128,7 @@ material-dashboard-pro-react
     │   │   └── Footer.jsx
     │   ├── Grid
     │   │   ├── GridContainer.jsx
-    │   │   └── ItemGrid.jsx
+    │   │   └── GridItem.jsx
     │   ├── Header
     │   │   ├── Header.jsx
     │   │   ├── HeaderLinks.jsx
@@ -155,14 +155,11 @@ material-dashboard-pro-react
     │   ├── Timeline
     │   │   └── Timeline.jsx
     │   ├── Typography
-    │   │   ├── A.jsx
     │   │   ├── Danger.jsx
     │   │   ├── Info.jsx
     │   │   ├── Muted.jsx
-    │   │   ├── P.jsx
     │   │   ├── Primary.jsx
     │   │   ├── Quote.jsx
-    │   │   ├── Small.jsx
     │   │   ├── Success.jsx
     │   │   └── Warning.jsx
     │   └── Wizard
@@ -217,8 +214,8 @@ material-dashboard-pro-react
         │   ├── Timeline.jsx
         │   └── UserProfile.jsx
         ├── Tables
-        │   ├── DataTables.jsx
         │   ├── ExtendedTables.jsx
+        │   ├── ReactTables.jsx
         │   └── RegularTables.jsx
         └── Widgets
             └── Widgets.jsx
@@ -248,4 +245,4 @@ Instagram: <https://instagram.com/creativetimofficial>
 
 [CHANGELOG]: ./CHANGELOG.md
 
-[version-badge]: https://img.shields.io/badge/version-1.1.1-blue.svg
+[version-badge]: https://img.shields.io/badge/version-1.2.0-blue.svg
