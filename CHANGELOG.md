@@ -1,4 +1,61 @@
 # Change Log
+## [1.3.0] 2018-08-09
+### Major style changes
+- Added styles for `svg`'s, **font-awesome** classes and `.material-icons` class inside
+  - `src/assets/jss/material-dashboard-pro-react/views/dashboardStyle.jsx`
+  - `src/assets/jss/material-dashboard-pro-react/views/extendedTablesStyle.jsx`
+  - `src/assets/jss/material-dashboard-pro-react/views/pricingPageStyle.jsx`
+  - `src/assets/jss/material-dashboard-pro-react/components/buttonStyle.jsx`
+  - `src/assets/jss/material-dashboard-pro-react/components/cardFooterStyle.jsx`
+  - `src/assets/jss/material-dashboard-pro-react/components/cardHeaderStyle.jsx`
+  - `src/assets/jss/material-dashboard-pro-react/components/cardStyle.jsx`
+  - `src/assets/jss/material-dashboard-pro-react/components/customInputStyle.jsx`
+  - `src/assets/jss/material-dashboard-pro-react/components/customTabsStyle.jsx`
+  - `src/assets/jss/material-dashboard-pro-react/components/headerLinksStyle.jsx`
+- Others
+  - `src/assets/jss/material-dashboard-pro-react/views/regularFormsStyle.jsx`
+  - `src/assets/jss/material-dashboard-pro-react/components/customInputStyle.jsx`
+  - `src/assets/scss/material-dashboard-pro-react/plugins/_plugin-react-big-calendar.scss`
+  - `src/assets/jss/material-dashboard-pro-react/layouts/pagesStyle.jsx`
+  - `src/assets/jss/material-dashboard-pro-react/views/registerPageStyle.jsx`
+  - `src/assets/jss/material-dashboard-pro-react/views/loginPageStyle.jsx`
+  - `src/assets/jss/material-dashboard-pro-react/views/pricingPageStyle.jsx`
+  - `src/assets/jss/material-dashboard-pro-react/views/lockScreenPageStyle.jsx`
+  - `src/assets/jss/material-dashboard-pro-react/components/customDropdownStyle.jsx`
+  - `src/assets/jss/material-dashboard-pro-react/customSelectStyle.jsx` (added some special class for the multiple select)
+### Bug Fixing
+- Run `prettier` (minor code writting bugs)
+- Added lint commands (please read the live docs)
+- Added back the `helpText` prop on `CustomInput` component (if the `CustomInput` has the `error` prop set, the `helpText` wil have error color, if the `success` prop is set on `CustomInput` then the `helpText` will have success color)
+- Deleted the `Clear` (icon that appeared on `error` for `CustomInput`) and `Check` (icon that appeared on `success` for `CustomInput`) - now you should use `InputAdornment` from `@material-ui/core`
+- Changed `CustomDropdown`, now it uses `@material-ui/core/Popper`, instead of `{ Manager, Target, Popper }` from `react-popper`
+- Changed the dropdown link in `HeaderLinks`, now it uses `@material-ui/core/Popper`, instead of `{ Manager, Target, Popper }` from `react-popper`
+- Github issues solved:
+  - `https://github.com/creativetimofficial/ct-material-dashboard-pro-react/issues/34`
+  - `https://github.com/creativetimofficial/ct-material-dashboard-pro-react/issues/35`
+  - `https://github.com/creativetimofficial/ct-material-dashboard-pro-react/issues/39`
+  - `https://github.com/creativetimofficial/ct-material-dashboard-pro-react/issues/40`
+  - `https://github.com/creativetimofficial/ct-material-dashboard-pro-react/issues/54` (added docs for this issue)
+  - `https://github.com/creativetimofficial/ct-material-dashboard-pro-react/issues/55`
+  - `https://github.com/creativetimofficial/ct-material-dashboard-pro-react/issues/62`
+### Deleted dependencies
+### Added dependencies
+- `@babel/runtime v7.0.0-beta.55`
+### Updated dependencies
+- `@material-ui/core v1.2.0` to `@material-ui/core v1.4.3`
+- `@material-ui/icons v1.1.0` to `@material-ui/icons v2.0.1`
+- `@types/googlemaps v3.30.8` to `@types/googlemaps v3.30.11`
+- `ajv v6.5.0` to `ajv v6.5.2`
+- `moment v2.22.1` to `moment v2.22.2`
+- `node-sass-chokidar v1.3.0` to `node-sass-chokidar v1.3.3`
+- `perfect-scrollbar v1.3.0` to `perfect-scrollbar v1.4.0`
+- `react v16.4.0` tp `react v16.4.1`
+- `react-big-calendar v0.19.1` to `react-big-calendar v0.19.2`
+- `react-datetime v2.14.0` to `react-datetime v2.15.0`
+- `react-dom v16.4.0` to `react-dom 16.4.1`
+- `react-router-dom v4.2.2` to `react-router-dom v4.3.1`
+- `react-swipeable-views v0.12.13` to `react-swipeable-views v0.12.15`
+
 
 ## [1.2.0] 2018-06-08
 ### **IMPORTANT!!!**
