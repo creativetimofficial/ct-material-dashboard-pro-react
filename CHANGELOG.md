@@ -1,4 +1,46 @@
 # Change Log
+## [1.4.0] 2018-09-29
+### Styles changed
+- `src/assets/jss/material-dashboard-pro-react/components/customDropdownStyle.jsx`
+- `src/assets/jss/material-dashboard-pro-react/components/customInputStyle.jsx`
+- `src/assets/jss/material-dashboard-pro-react/components/customTabsStyle.jsx`
+- `src/assets/jss/material-dashboard-pro-react/components/snackbarContentStyle.jsx`
+- `src/assets/jss/material-dashboard-pro-react/components/tasksStyle.jsx`
+- `src/assets/jss/material-dashboard-pro-react/layouts/pagesStyle.jsx`
+- `src/assets/jss/material-dashboard-pro-react/views/extendedFormsStyle.jsx`
+- `src/assets/jss/material-dashboard-pro-react/views/validationFormsStyle.jsx`
+- `src/assets/jss/material-dashboard-pro-react/customCheckboxRadioSwitch.jsx`
+- `src/assets/scss/material-dashboard-pro-react/plugins/_plugin-nouislider.scss`
+- `src/assets/scss/material-dashboard-pro-react/plugins/_plugin-react-big-calendar.scss`
+### Bug Fixing
+- Run `prettier` (minor code writting bugs)
+- Added `npm run node_modules` (**Mac/Linux**) and `npm run node_modules-w` (**Windows**) scripts (deletes `node_modules` and `package-lock.json`)
+- Added `npm run install:clean` (**Mac/Linux**) and `npm run install:clean-w` (**Windows**) scripts (deletes `node_modules` and `package-lock.json`, runs `npm install` and runs `npm start`)
+- Github own issues solved:
+  - [https://github.com/creativetimofficial/ct-material-dashboard-pro-react/issues/79](https://github.com/creativetimofficial/ct-material-dashboard-pro-react/issues/79)
+  - [https://github.com/creativetimofficial/ct-material-dashboard-pro-react/issues/66](https://github.com/creativetimofficial/ct-material-dashboard-pro-react/issues/66)
+- Github other issues solved:
+  - [https://github.com/creativetimofficial/material-kit-react/issues/36](https://github.com/creativetimofficial/material-kit-react/issues/36)
+### Deleted dependencies
+- `@babel/runtime`
+- `react-nouislider` (since it was not well maintained)
+### Added dependencies
+- `@babel/core`                      `7.0.0`
+- `nouislider`                      `12.0.0` (instead of `react-nouislider`)
+### Updated dependencies
+- `@material-ui/core`                `1.4.3`   →     `3.1.1`
+- `@material-ui/icons`               `2.0.1`   →     `3.0.1`
+- `@types/googlemaps`              `3.30.11`   →   `3.30.13`
+- `ajv`                              `6.5.2`   →     `5.0.0`
+- `react`                           `16.4.1`   →    `16.5.2`
+- `react-big-calendar`              `0.19.2`   →    `0.20.1`
+- `react-dom`                       `16.4.1`   →    `16.5.2`
+- `react-scripts`                    `1.1.4`   →     `1.1.5`
+- `react-swipeable-views`          `0.12.15`   →    `0.13.0`
+- `eslint-config-prettier`          `^2.9.0`   →     `3.1.0`
+- `eslint-plugin-react`            `^7.10.0`   →    `7.11.1`
+- `prettier`                       `^1.13.7`   →    `1.14.3`
+
 ## [1.3.0] 2018-08-09
 ### Major style changes
 - Added styles for `svg`'s, **font-awesome** classes and `.material-icons` class inside
