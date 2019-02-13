@@ -2,11 +2,11 @@
 
 
 
-![version](https://img.shields.io/badge/version-1.3.0-blue.svg) [![GitHub issues open](https://img.shields.io/github/issues/creativetimofficial/ct-material-dashboard-pro-react.svg?maxAge=2592000)](https://github.com/creativetimofficial/ct-material-dashboard-pro-react/issues?q=is%3Aopen+is%3Aissue) [![GitHub issues closed](https://img.shields.io/github/issues-closed-raw/creativetimofficial/ct-material-dashboard-pro-react.svg?maxAge=2592000)](https://github.com/creativetimofficial/ct-material-dashboard-pro/issues-react?q=is%3Aissue+is%3Aclosed) [![Join the chat at https://gitter.im/NIT-dgp/General](https://badges.gitter.im/NIT-dgp/General.svg)](https://gitter.im/creative-tim/material-dashboard) [![Chat](https://img.shields.io/badge/chat-on%20discord-7289da.svg)](https://discord.gg/E4aHAQy)
+![version](https://img.shields.io/badge/version-1.5.0-blue.svg) [![GitHub issues open](https://img.shields.io/github/issues/creativetimofficial/ct-material-dashboard-pro-react.svg?maxAge=2592000)](https://github.com/creativetimofficial/ct-material-dashboard-pro-react/issues?q=is%3Aopen+is%3Aissue) [![GitHub issues closed](https://img.shields.io/github/issues-closed-raw/creativetimofficial/ct-material-dashboard-pro-react.svg?maxAge=2592000)](https://github.com/creativetimofficial/ct-material-dashboard-pro/issues-react?q=is%3Aissue+is%3Aclosed) [![Join the chat at https://gitter.im/NIT-dgp/General](https://badges.gitter.im/NIT-dgp/General.svg)](https://gitter.im/creative-tim/material-dashboard) [![Chat](https://img.shields.io/badge/chat-on%20discord-7289da.svg)](https://discord.gg/E4aHAQy)
 
 ![Product Gif](./material-dashboard-pro-react.gif)
 
-Material Dashboard PRO React is a Premium Material-UI Admin with a fresh, new design inspired by Google's Material Design. We are very excited to introduce our take on the material concepts through an easy to use and beautiful set of components. Material Dashboard PRO React was built over the popular Material-UI framework.
+Material Dashboard PRO React is a Premium Material-UI Admin created using [create-react-app](https://github.com/facebook/create-react-app) with a fresh, new design inspired by Google's Material Design. We are very excited to introduce our take on the material concepts through an easy to use and beautiful set of components. Material Dashboard PRO React was built over the popular Material-UI framework.
 
 Material Dashboard PRO React makes use of light, surface and movement. The general layout resembles sheets of paper following multiple different layers, so that the depth and order is obvious. The navigation stays mainly on the left sidebar and the content is on the right inside the main panel.
 
@@ -86,25 +86,24 @@ Within the download you'll find the following directories and files:
 material-dashboard-pro-react
 │
 ├── CHANGELOG.md
+├── ISSUE_TEMPLATE.md
 ├── README.md
+├── package.json
 ├── documentation
 │   ├── assets
-│   │   ├── css
-│   │   ├── img
-│   │   │   └── faces
-│   │   └── js
 │   └── tutorial-components.html
-├── package.json
 ├── public
 │   ├── favicon.ico
 │   ├── index.html
 │   └── manifest.json
 └── src
+    ├── index.js
+    ├── routes.js
     ├── assets
+    │   ├── github
     │   ├── img
     │   │   ├── faces
     │   │   ├── flags
-    │   │   └── logo-white.svg
     │   ├── jss
     │   │   ├── material-dashboard-pro-react
     │   │   │   ├── components
@@ -144,15 +143,13 @@ material-dashboard-pro-react
     │   ├── CustomUpload
     │   │   ├── ImageUpload.jsx
     │   │   └── PictureUpload.jsx
+    │   ├── FixedPlugin
+    │   │   └── FixedPlugin.jsx
     │   ├── Footer
     │   │   └── Footer.jsx
     │   ├── Grid
     │   │   ├── GridContainer.jsx
     │   │   └── GridItem.jsx
-    │   ├── Header
-    │   │   ├── Header.jsx
-    │   │   ├── HeaderLinks.jsx
-    │   │   └── PagesHeader.jsx
     │   ├── Heading
     │   │   └── Heading.jsx
     │   ├── InfoArea
@@ -161,6 +158,10 @@ material-dashboard-pro-react
     │   │   └── Instruction.jsx
     │   ├── NavPills
     │   │   └── NavPills.jsx
+    │   ├── Navbars
+    │   │   ├── AdminNavbar.jsx
+    │   │   ├── AdminNavbarLinks.jsx
+    │   │   └── AuthNavbar.jsx
     │   ├── Pagination
     │   │   └── Pagination.jsx
     │   ├── Sidebar
@@ -184,16 +185,10 @@ material-dashboard-pro-react
     │   │   └── Warning.jsx
     │   └── Wizard
     │       └── Wizard.jsx
-    ├── index.js
     ├── layouts
-    │   ├── Dashboard.jsx
-    │   ├── Pages.jsx
+    │   ├── Admin.jsx
+    │   ├── Auth.jsx
     │   └── RTL.jsx
-    ├── routes
-    │   ├── dashboard.jsx
-    │   ├── index.jsx
-    │   ├── pages.jsx
-    │   └── rtl.jsx
     ├── variables
     │   ├── charts.jsx
     │   └── general.jsx
@@ -226,6 +221,7 @@ material-dashboard-pro-react
         │   ├── GoogleMaps.jsx
         │   └── VectorMap.jsx
         ├── Pages
+        │   ├── ErrorPage.jsx
         │   ├── LockScreenPage.jsx
         │   ├── LoginPage.jsx
         │   ├── PricingPage.jsx
