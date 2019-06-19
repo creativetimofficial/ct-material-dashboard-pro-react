@@ -1,4 +1,51 @@
 # Change Log
+
+## [1.7.0] 2019-06-19
+### Warning
+**We've skipped version 1.6.0 so that all React Material products would be on the same version.**
+### Bug fixing
+- Bugs from updated dependencies
+- Removed `.env` file, and replaced it with the `jsconfig.json` file
+- Changes caused by running [the prettier command](https://prettier.io/docs/en/install.html) for *.jsx*, *.js*, *.html* and *.css* files
+- Changed all string refs to `React.createRef()`
+- Added types validation in each component
+- Solved linting issues
+- Solved https://github.com/creativetimofficial/ct-material-dashboard-pro-react/issues/149
+- Solved https://github.com/creativetimofficial/ct-material-dashboard-pro-react/issues/161
+- Solved https://github.com/creativetimofficial/ct-material-dashboard-pro-react/issues/171
+- Solved https://github.com/creativetimofficial/ct-material-dashboard-pro-react/issues/172
+- Solved https://github.com/creativetimofficial/ct-material-dashboard-pro-react/issues/176
+- Solved https://github.com/creativetimofficial/ct-material-dashboard-pro-react/issues/177
+### Major style changes
+### Deleted components
+### Added components
+### Deleted dependencies
+### Added dependencies
+- typescript@3.5.1  (To stop console warnings on install)
+- eslint-plugin-react@7.13.0
+- eslint@5.16.0
+### Updated dependencies
+```
+@material-ui/core          3.9.2   →    4.1.0
+@material-ui/icons         3.0.2   →    4.1.0
+history                    4.7.2   →    4.9.0
+node-sass                 4.11.0   →   4.12.0
+nouislider                13.1.0   →   13.1.5
+react                     16.8.1   →   16.8.6
+react-big-calendar        0.20.3   →   0.21.0
+react-dom                 16.8.1   →   16.8.6
+react-jvectormap           0.0.6   →   0.0.12
+react-router-dom           4.3.1   →    5.0.1
+react-scripts              2.1.5   →    3.0.1
+react-swipeable-views     0.13.1   →   0.13.3
+react-table                6.9.2   →   6.10.0
+eslint-config-prettier     4.0.0   →    4.3.0
+eslint-plugin-prettier     3.0.1   →    3.1.0
+@types/googlemaps        3.30.16   →   3.36.4
+ajv                        6.9.1   →   6.10.0
+prettier                  1.16.4   →   1.18.2
+```
+
 ## [1.5.0] 2019-02-13
 ### Bug Fixing
 - Deleted some unnecessary scripts (See available scripts here: https://demos.creative-tim.com/material-dashboard-pro-react/#/documentation/build-tools)
