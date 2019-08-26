@@ -2,7 +2,7 @@
 
 
 
-![version](https://img.shields.io/badge/version-1.7.0-blue.svg) [![GitHub issues open](https://img.shields.io/github/issues/creativetimofficial/ct-material-dashboard-pro-react.svg?maxAge=2592000)](https://github.com/creativetimofficial/ct-material-dashboard-pro-react/issues?q=is%3Aopen+is%3Aissue) [![GitHub issues closed](https://img.shields.io/github/issues-closed-raw/creativetimofficial/ct-material-dashboard-pro-react.svg?maxAge=2592000)](https://github.com/creativetimofficial/ct-material-dashboard-pro/issues-react?q=is%3Aissue+is%3Aclosed) [![Join the chat at https://gitter.im/NIT-dgp/General](https://badges.gitter.im/NIT-dgp/General.svg)](https://gitter.im/creative-tim/material-dashboard) [![Chat](https://img.shields.io/badge/chat-on%20discord-7289da.svg)](https://discord.gg/E4aHAQy)
+![version](https://img.shields.io/badge/version-1.8.0-blue.svg) [![GitHub issues open](https://img.shields.io/github/issues/creativetimofficial/ct-material-dashboard-pro-react.svg?maxAge=2592000)](https://github.com/creativetimofficial/ct-material-dashboard-pro-react/issues?q=is%3Aopen+is%3Aissue) [![GitHub issues closed](https://img.shields.io/github/issues-closed-raw/creativetimofficial/ct-material-dashboard-pro-react.svg?maxAge=2592000)](https://github.com/creativetimofficial/ct-material-dashboard-pro/issues-react?q=is%3Aissue+is%3Aclosed) [![Join the chat at https://gitter.im/NIT-dgp/General](https://badges.gitter.im/NIT-dgp/General.svg)](https://gitter.im/creative-tim/material-dashboard) [![Chat](https://img.shields.io/badge/chat-on%20discord-7289da.svg)](https://discord.gg/E4aHAQy)
 
 ![Product Gif](./material-dashboard-pro-react.gif)
 
@@ -84,32 +84,39 @@ Within the download you'll find the following directories and files:
 
 ```
 material-dashboard-pro-react
-│
+.
 ├── CHANGELOG.md
 ├── ISSUE_TEMPLATE.md
 ├── README.md
+├── gulpfile.js
+├── jsconfig.json
 ├── package.json
 ├── documentation
 │   ├── assets
+│   │   ├── css
+│   │   ├── img
+│   │   │   └── faces
+│   │   └── js
 │   └── tutorial-components.html
 ├── public
 │   ├── favicon.ico
 │   ├── index.html
 │   └── manifest.json
 └── src
-    ├── index.js
-    ├── routes.js
     ├── assets
     │   ├── github
+    │   │   └── material-dashboard-pro-react.gif
     │   ├── img
     │   │   ├── faces
     │   │   ├── flags
+    │   │   ├── logo-white.svg
+    │   │   └── logo.svg
     │   ├── jss
     │   │   ├── material-dashboard-pro-react
     │   │   │   ├── components
     │   │   │   ├── layouts
     │   │   │   └── views
-    │   │   └── material-dashboard-pro-react.jsx
+    │   │   └── material-dashboard-pro-react.js
     │   └── scss
     │       ├── material-dashboard-pro-react
     │       │   ├── mixins
@@ -117,124 +124,126 @@ material-dashboard-pro-react
     │       └── material-dashboard-pro-react.scss
     ├── components
     │   ├── Accordion
-    │   │   └── Accordion.jsx
+    │   │   └── Accordion.js
     │   ├── Badge
-    │   │   └── Badge.jsx
+    │   │   └── Badge.js
     │   ├── Card
-    │   │   ├── Card.jsx
-    │   │   ├── CardAvatar.jsx
-    │   │   ├── CardBody.jsx
-    │   │   ├── CardFooter.jsx
-    │   │   ├── CardHeader.jsx
-    │   │   ├── CardIcon.jsx
-    │   │   └── CardText.jsx
+    │   │   ├── Card.js
+    │   │   ├── CardAvatar.js
+    │   │   ├── CardBody.js
+    │   │   ├── CardFooter.js
+    │   │   ├── CardHeader.js
+    │   │   ├── CardIcon.js
+    │   │   └── CardText.js
     │   ├── Clearfix
-    │   │   └── Clearfix.jsx
+    │   │   └── Clearfix.js
     │   ├── CustomButtons
-    │   │   └── Button.jsx
+    │   │   └── Button.js
     │   ├── CustomDropdown
-    │   │   └── CustomDropdown.jsx
+    │   │   └── CustomDropdown.js
     │   ├── CustomInput
-    │   │   └── CustomInput.jsx
+    │   │   └── CustomInput.js
     │   ├── CustomLinearProgress
-    │   │   └── CustomLinearProgress.jsx
+    │   │   └── CustomLinearProgress.js
     │   ├── CustomTabs
-    │   │   └── CustomTabs.jsx
+    │   │   └── CustomTabs.js
     │   ├── CustomUpload
-    │   │   ├── ImageUpload.jsx
-    │   │   └── PictureUpload.jsx
+    │   │   ├── ImageUpload.js
+    │   │   └── PictureUpload.js
     │   ├── FixedPlugin
-    │   │   └── FixedPlugin.jsx
+    │   │   └── FixedPlugin.js
     │   ├── Footer
-    │   │   └── Footer.jsx
+    │   │   └── Footer.js
     │   ├── Grid
-    │   │   ├── GridContainer.jsx
-    │   │   └── GridItem.jsx
+    │   │   ├── GridContainer.js
+    │   │   └── GridItem.js
     │   ├── Heading
-    │   │   └── Heading.jsx
+    │   │   └── Heading.js
     │   ├── InfoArea
-    │   │   └── InfoArea.jsx
+    │   │   └── InfoArea.js
     │   ├── Instruction
-    │   │   └── Instruction.jsx
+    │   │   └── Instruction.js
     │   ├── NavPills
-    │   │   └── NavPills.jsx
+    │   │   └── NavPills.js
     │   ├── Navbars
-    │   │   ├── AdminNavbar.jsx
-    │   │   ├── AdminNavbarLinks.jsx
-    │   │   └── AuthNavbar.jsx
+    │   │   ├── AdminNavbar.js
+    │   │   ├── AdminNavbarLinks.js
+    │   │   └── AuthNavbar.js
     │   ├── Pagination
-    │   │   └── Pagination.jsx
+    │   │   └── Pagination.js
     │   ├── Sidebar
-    │   │   └── Sidebar.jsx
+    │   │   └── Sidebar.js
     │   ├── Snackbar
-    │   │   ├── Snackbar.jsx
-    │   │   └── SnackbarContent.jsx
+    │   │   ├── Snackbar.js
+    │   │   └── SnackbarContent.js
     │   ├── Table
-    │   │   └── Table.jsx
+    │   │   └── Table.js
     │   ├── Tasks
-    │   │   └── Tasks.jsx
+    │   │   └── Tasks.js
     │   ├── Timeline
-    │   │   └── Timeline.jsx
+    │   │   └── Timeline.js
     │   ├── Typography
-    │   │   ├── Danger.jsx
-    │   │   ├── Info.jsx
-    │   │   ├── Muted.jsx
-    │   │   ├── Primary.jsx
-    │   │   ├── Quote.jsx
-    │   │   ├── Success.jsx
-    │   │   └── Warning.jsx
+    │   │   ├── Danger.js
+    │   │   ├── Info.js
+    │   │   ├── Muted.js
+    │   │   ├── Primary.js
+    │   │   ├── Quote.js
+    │   │   ├── Success.js
+    │   │   └── Warning.js
     │   └── Wizard
-    │       └── Wizard.jsx
+    │       └── Wizard.js
+    ├── index.js
     ├── layouts
-    │   ├── Admin.jsx
-    │   ├── Auth.jsx
-    │   └── RTL.jsx
+    │   ├── Admin.js
+    │   ├── Auth.js
+    │   └── RTL.js
+    ├── routes.js
     ├── variables
-    │   ├── charts.jsx
-    │   └── general.jsx
+    │   ├── charts.js
+    │   └── general.js
     └── views
         ├── Calendar
-        │   └── Calendar.jsx
+        │   └── Calendar.js
         ├── Charts
-        │   └── Charts.jsx
+        │   └── Charts.js
         ├── Components
-        │   ├── Buttons.jsx
-        │   ├── GridSystem.jsx
-        │   ├── Icons.jsx
-        │   ├── Notifications.jsx
-        │   ├── Panels.jsx
-        │   ├── SweetAlert.jsx
-        │   └── Typography.jsx
+        │   ├── Buttons.js
+        │   ├── GridSystem.js
+        │   ├── Icons.js
+        │   ├── Notifications.js
+        │   ├── Panels.js
+        │   ├── SweetAlert.js
+        │   └── Typography.js
         ├── Dashboard
-        │   └── Dashboard.jsx
+        │   └── Dashboard.js
         ├── Forms
-        │   ├── ExtendedForms.jsx
-        │   ├── RegularForms.jsx
-        │   ├── ValidationForms.jsx
-        │   ├── Wizard.jsx
+        │   ├── ExtendedForms.js
+        │   ├── RegularForms.js
+        │   ├── ValidationForms.js
+        │   ├── Wizard.js
         │   └── WizardSteps
-        │       ├── Step1.jsx
-        │       ├── Step2.jsx
-        │       └── Step3.jsx
+        │       ├── Step1.js
+        │       ├── Step2.js
+        │       └── Step3.js
         ├── Maps
-        │   ├── FullScreenMap.jsx
-        │   ├── GoogleMaps.jsx
-        │   └── VectorMap.jsx
+        │   ├── FullScreenMap.js
+        │   ├── GoogleMaps.js
+        │   └── VectorMap.js
         ├── Pages
-        │   ├── ErrorPage.jsx
-        │   ├── LockScreenPage.jsx
-        │   ├── LoginPage.jsx
-        │   ├── PricingPage.jsx
-        │   ├── RTLSupport.jsx
-        │   ├── RegisterPage.jsx
-        │   ├── Timeline.jsx
-        │   └── UserProfile.jsx
+        │   ├── ErrorPage.js
+        │   ├── LockScreenPage.js
+        │   ├── LoginPage.js
+        │   ├── PricingPage.js
+        │   ├── RTLSupport.js
+        │   ├── RegisterPage.js
+        │   ├── Timeline.js
+        │   └── UserProfile.js
         ├── Tables
-        │   ├── ExtendedTables.jsx
-        │   ├── ReactTables.jsx
-        │   └── RegularTables.jsx
+        │   ├── ExtendedTables.js
+        │   ├── ReactTables.js
+        │   └── RegularTables.js
         └── Widgets
-            └── Widgets.jsx
+            └── Widgets.js
 ```
 
 ## Browser Support
