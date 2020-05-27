@@ -1,5 +1,60 @@
 # Change Log
 
+## [1.9.0] 27.05.2020
+### Bug fixing
+- Add `React.useEffect` inside `src/views/Pages/LoginPage.js` and `src/views/Pages/LockScreenPage.js` so that the `setTimeout` will not throw errors on route change
+- https://github.com/creativetimofficial/ct-material-dashboard-pro-react/issues/219 (added two new props for this component, so you can easily use your own default value and your own function for changing this value)
+- https://github.com/creativetimofficial/ct-material-dashboard-pro-react/issues/214
+- https://github.com/creativetimofficial/ct-material-dashboard-pro-react/issues/212
+- https://github.com/creativetimofficial/ct-material-dashboard-pro-react/issues/208
+- https://github.com/creativetimofficial/ct-material-dashboard-pro-react/issues/195
+- https://github.com/creativetimofficial/ct-material-dashboard-pro-react/issues/194
+- https://github.com/creativetimofficial/ct-material-dashboard-pro-react/issues/225
+- From other repositories:
+  - https://github.com/creativetimofficial/ct-material-kit-pro-react/issues/60
+### Major style changes
+- `src/assets/jss/material-dashboard-pro-react/layouts/authStyle.js`
+- `src/assets/scss/material-dashboard-pro-react/plugins/_plugin-react-bootstrap-sweetalert.scss`
+- `src/assets/jss/material-dashboard-pro-react/components/sidebarStyle.js`
+- `src/assets/scss/material-dashboard-pro-react/plugins/_plugin-react-table.scss`
+### Deleted components
+### Added components
+- `src/components/CustomTabs/CustomTabs.js` (This was because of the update to React-Table 7 API. NOTE: this is just a demo component to showcase the usage of the API, if you wish to add more functionality from the API, you should either duplicate the component, or work over it.)
+### Deleted dependencies
+### Added dependencies
++ classnames@2.2.6
++ match-sorter@4.1.0
+### Updated dependencies
+```
+@material-ui/core             4.3.2   →    4.9.14
+@material-ui/icons            4.2.1   →     4.9.1
+history                       4.9.0   →    4.10.1
+moment                       2.24.0   →    2.26.0
+node-sass                    4.12.0   →    4.14.1
+nouislider                   14.0.2   →    14.5.0
+perfect-scrollbar             1.4.0   →     1.5.0
+react                        16.9.0   →   16.13.1
+react-big-calendar           0.22.0   →    0.24.6
+react-bootstrap-sweetalert    4.4.1   →     5.1.9
+react-chartist               0.13.3   →    0.14.3
+react-dom                    16.9.0   →   16.13.1
+react-jvectormap             0.0.12   →    0.0.16
+react-router-dom              5.0.1   →     5.2.0
+react-scripts                 3.1.0   →     3.4.1
+react-swipeable-views        0.13.3   →    0.13.9
+react-table                  6.10.0   →     7.1.0
+eslint-config-prettier        6.0.0   →    6.11.0
+eslint-plugin-prettier        3.1.0   →     3.1.3
+prettier                     1.18.2   →     2.0.5
+@types/googlemaps            3.37.3   →    3.39.6
+ajv                          6.10.2   →    6.12.2
+typescript                    3.5.3   →     3.9.3
+```
+### Warning
+_In the next version, we'll change all the ReactTable components to JSS based components, the same these tables were created: https://demos.creative-tim.com/material-dashboard-pro-react/#/admin/extended-tables or these https://demos.creative-tim.com/material-dashboard-pro-react/#/documentation/table_
+_While in development some of the plugins that were used for this product will throw some warnings - note, this only happens in development, the UI or the functionality of the product is not affected, also, if the issues will persist in React 17, we'll drop usage of those plugins, and replace them with other ones._
+_Warnings might appear while doing an npm install - they do not affect the UI or the functionality of the product, and they appear because of NodeJS and not from the product itself._
+
 ## [1.8.0] 2019-08-26
 ### Warning
 - Wizard and Wizard Steps were not changed to hooks since we need to be able to call the isValidated function (this can only be achieved with classes - withStyles function is still being used)
