@@ -1,5 +1,69 @@
 # Change Log
 
+## [1.10.0] 2021-05-10
+### Bug fixing
+- Changed Multi Level Collapse links and layouts to stop it opening when going to the /admin/buttons page
+- Change SidebarWrapper from class to function component
+- Change Sidebar from class to function component
+  - Also, made the Multi Level Collapse stop opening when navigating to /admin/buttons
+  - Also, made the collapses close when opening a new one
+- https://github.com/creativetimofficial/ct-material-dashboard-pro-react/issues/253
+- https://github.com/creativetimofficial/ct-material-dashboard-pro-react/issues/252
+- https://github.com/creativetimofficial/ct-material-dashboard-pro-react/issues/251
+- https://github.com/creativetimofficial/ct-material-dashboard-pro-react/issues/243
+- https://github.com/creativetimofficial/ct-material-dashboard-pro-react/issues/232
+- https://github.com/creativetimofficial/ct-material-dashboard-pro-react/issues/229
+- https://github.com/creativetimofficial/ct-material-dashboard-pro-react/issues/228
+- Change Step1, Step2 and Step3 of Wizard component from class components to functional ones
+  - NOTE: The Wizard still accepts class components as well
+  - NOTE: The Wizard is still a class component. It could not be changed to functional component as of the moment :(. We will continue to find a solution for this component as well.
+### Major style changes
+### Deleted components
+### Added components
+### Deleted dependencies
+- `react-google-maps` (we've replaced this with simple Google Maps API)
+- `@types/googlemaps` (we've replaced this with simple Google Maps API)
+- `@types/markerclustererplus` (we've replaced this with simple Google Maps API)
+- `ajv` (this was only installed to stop some install warnings)
+- `history` (we'll use `BrowserRouter` from `react-router-dom` package instead)
+### Added dependencies
++ `@babel/core@7.14.0 `(to stop warnings)
+### Updated dependencies
+```
+@material-ui/core             4.9.14   →   4.11.4
+@material-ui/icons             4.9.1   →   4.11.2
+classnames                     2.2.6   →    2.3.1
+match-sorter                   4.1.0   →    6.3.0
+moment                        2.26.0   →   2.29.1
+node-sass                     4.14.1   →    5.0.0
+nouislider                    14.5.0   →   15.0.0
+perfect-scrollbar              1.5.0   →    1.5.1
+react                        16.13.1   →   17.0.2
+react-big-calendar            0.24.6   →   0.33.2
+react-bootstrap-sweetalert     5.1.9   →    5.2.0
+react-chartist                0.14.3   →   0.14.4
+react-datetime                2.16.3   →    3.0.4
+react-dom                    16.13.1   →   17.0.2
+react-scripts                  3.4.1   →    4.0.3
+react-table                    7.1.0   →    7.7.0
+eslint-config-prettier        6.11.0   →    8.3.0
+eslint-plugin-prettier         3.1.3   →    3.4.0
+gulp-append-prepend            1.0.8   →    1.0.9
+prettier                       2.0.5   →    2.2.1
+typescript                     3.9.3   →    4.2.4
+```
+### Warning
+_In the next version, we'll change all the ReactTable components to JSS based components, the same these tables were created: https://demos.creative-tim.com/material-dashboard-pro-react/#/admin/extended-tables or these https://demos.creative-tim.com/material-dashboard-pro-react/#/documentation/table_
+_While in development some of the plugins that were used for this product will throw some warnings - note, this only happens in development, the UI or the functionality of the product is not affected, also, if the issues will persist in React 17, we'll drop usage of those plugins, and replace them with other ones._
+_Warnings might appear while doing an npm install - they do not affect the UI or the functionality of the product, and they appear because of NodeJS and not from the product itself._
+```
+npm WARN react-datetime@3.0.4 requires a peer of react@^16.5.0 but none is installed. You must install peer dependencies yourself.
+npm WARN react-event-listener@0.6.6 requires a peer of react@^16.3.0 but none is installed. You must install peer dependencies yourself.
+npm WARN react-swipeable-views@0.13.9 requires a peer of react@^15.3.0 || ^16.0.0 but none is installed. You must install peer dependencies yourself.
+npm WARN react-tagsinput@3.19.0 requires a peer of react@^16.0.0 || ^15.0.0 || ^0.14.0 but none is installed. You must install peer dependencies yourself.
+```
+_You will also have the following message: `found 1 low severity vulnerability`. This comes from `gulp`, and will be fixed in the next version. NOTE: the product works as expected with these `vulnerabilities`._
+
 ## [1.9.0] 27.05.2020
 ### Bug fixing
 - Add `React.useEffect` inside `src/views/Pages/LoginPage.js` and `src/views/Pages/LockScreenPage.js` so that the `setTimeout` will not throw errors on route change
