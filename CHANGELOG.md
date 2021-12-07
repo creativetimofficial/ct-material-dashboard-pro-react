@@ -1,5 +1,16 @@
 # Change Log
 
+## [2.0.0] 2021-12-07
+- Bug fixing
+- Major style changes
+- Migration from Material-UI to MUI v5.
+- Migration from JSS to styled api, emotion and sx prop.
+- Product folders and files structured are updated: README
+- New components are added
+- New example blocks are added
+- Components are Example Blocks are now totally customizable and reusable
+- Product now uses the react context api for global configurations
+
 ## [1.10.0] 2021-05-10
 ### Bug fixing
 - Changed Multi Level Collapse links and layouts to stop it opening when going to the /admin/buttons page
