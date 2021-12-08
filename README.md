@@ -67,12 +67,12 @@ Let us know your thoughts below. And good luck with development!
 
 ## Versions
 
-[<img src="https://raw.githubusercontent.com/creativetimofficial/public-assets/master/logos/react-logo.jpg?raw=true" width="60" height="60" />](https://www.creative-tim.com/product/soft-ui-dashboard-pro-react?ref=readme-mdpr)
+[<img src="https://raw.githubusercontent.com/creativetimofficial/public-assets/master/logos/react-logo.jpg?raw=true" width="60" height="60" />](https://www.creative-tim.com/product/material-dashboard-pro-react?ref=readme-mdpr)
 
 | React |
 | ----- |
 
-| [![Material Dashboard 2 PRO React](https://s3.amazonaws.com/creativetim_bucket/products/80/thumb/material-dashboard-pro-react.jpg?1638882410)](http://demos.creative-tim.com/soft-ui-dashboard-pro-react/#/dashboards/default?ref=readme-mdpr)
+| [![Material Dashboard 2 PRO React](https://s3.amazonaws.com/creativetim_bucket/products/80/thumb/material-dashboard-pro-react.jpg?1638882410)](http://demos.creative-tim.com/material-dashboard-pro-react/#/dashboards/analytics?ref=readme-mdpr)
 
 ## Demo
 
