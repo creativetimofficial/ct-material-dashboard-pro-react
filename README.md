@@ -12,13 +12,13 @@ Material Dashboard 2 PRO React is built with over 200 frontend individual elemen
 This Premium MUI & React Dashboard is coming with prebuilt design blocks, so the development process is seamless,
 switching from our pages to the real website is very easy to be done.
 
-View [all components here](https://www.creative-tim.com/learning-lab/react/alerts/material-dashboard).
+View [all components here](https://www.creative-tim.com/learning-lab/react/alerts/material-dashboard/).
 
 **Documentation built by Developers**
 
 Each element is well presented in very complex documentation.
 
-You can read more about the [documentation here](https://www.creative-tim.com/learning-lab/react/overview/material-dashboard).
+You can read more about the [documentation here](https://www.creative-tim.com/learning-lab/react/overview/material-dashboard/).
 
 **Example Pages**
 
@@ -101,7 +101,7 @@ Quick start options:
 
 ## Documentation
 
-The documentation for the Material Dashboard is hosted at our [website](https://www.creative-tim.com/learning-lab/react/overview/material-dashboard?ref=readme-mdpr).
+The documentation for the Material Dashboard is hosted at our [website](https://www.creative-tim.com/learning-lab/react/overview/material-dashboard/?ref=readme-mdpr).
 
 ### What's included
 
@@ -211,7 +211,7 @@ At present, we officially aim to support the last two versions of the following 
 
 - [Live Preview](https://demos.creative-tim.com/material-dashboard-pro-react/#/dashboards/analytics?ref=readme-mdpr)
 - [Buy Page](https://www.creative-tim.com/product/material-dashboard-pro-react?ref=readme-mdpr)
-- Documentation is [here](https://www.creative-tim.com/learning-lab/react/overview/material-dashboard?ref=readme-mdpr)
+- Documentation is [here](https://www.creative-tim.com/learning-lab/react/overview/material-dashboard/?ref=readme-mdpr)
 - [License Agreement](https://www.creative-tim.com/license?ref=readme-mdpr)
 - [Support](https://www.creative-tim.com/contact-us?ref=readme-mdpr)
 - Issues: [Github Issues Page](https://github.com/creativetimofficial/ct-material-dashboard-pro-react/issues)
