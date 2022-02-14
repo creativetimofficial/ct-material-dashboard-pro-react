@@ -1,6 +1,6 @@
 # [Material Dashboard 2 PRO React](http://demos.creative-tim.com/material-dashboard-pro-react/#/dashboards/analytics?ref=readme-mdpr) [![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social&logo=twitter)](https://twitter.com/intent/tweet?url=https://www.creative-tim.com/product/material-dashboard-pro-react&text=Check%20Material%20Dashboard%202%20Pro%React%20made%20by%20@CreativeTim%20#webdesign%20#dashboard%20#materialdesign%20#react%20https://www.creative-tim.com/product/material-dashboard-pro-react)
 
-![version](https://img.shields.io/badge/version-2.0.0-blue.svg) [![GitHub issues open](https://img.shields.io/github/issues/creativetimofficial/ct-material-dashboard-pro-react.svg)](https://github.com/creativetimofficial/ct-material-dashboard-react-ui/issues?q=is%3Aopen+is%3Aissue) [![GitHub issues closed](https://img.shields.io/github/issues-closed-raw/creativetimofficial/ct-material-dashboard-pro-react.svg)](https://github.com/creativetimofficial/ct-material-dashboard-pro-react/issues?q=is%3Aissue+is%3Aclosed)
+![version](https://img.shields.io/badge/version-2.1.0-blue.svg) [![GitHub issues open](https://img.shields.io/github/issues/creativetimofficial/ct-material-dashboard-pro-react.svg)](https://github.com/creativetimofficial/ct-material-dashboard-pro-react/issues?q=is%3Aopen+is%3Aissue) [![GitHub issues closed](https://img.shields.io/github/issues-closed-raw/creativetimofficial/ct-material-dashboard-pro-react.svg)](https://github.com/creativetimofficial/ct-material-dashboard-pro-react/issues?q=is%3Aissue+is%3Aclosed)
 
 ![Image](https://s3.amazonaws.com/creativetim_bucket/products/80/original/material-dashboard-pro-react.jpg?1638882410)
 
@@ -47,7 +47,7 @@ During the development of this dashboard, we have used many existing resources f
 - [Formik](https://formik.org/) - Formik is the world's most popular open source form library for React and React Native.
 - [ChromaJS](https://gka.github.io/chroma.js/) - A small-ish zero-dependency JavaScript library for all kinds of color conversions and color scales.
 - [UUID](https://github.com/uuidjs/uuid) - JavaScript library for generating random id numbers.
-- [React HTML Parser](https://github.com/peternewnham/react-html-parser) - A utility for converting HTML strings into React components.
+- [HTML React Parser](https://github.com/remarkablemark/html-react-parser) - A utility for converting HTML strings into React components.
 
 Let us know your thoughts below. And good luck with development!
 
@@ -67,12 +67,12 @@ Let us know your thoughts below. And good luck with development!
 
 ## Versions
 
-[<img src="https://raw.githubusercontent.com/creativetimofficial/public-assets/master/logos/react-logo.jpg?raw=true" width="60" height="60" />](https://www.creative-tim.com/product/material-dashboard-pro-react?ref=readme-mdpr)
+[<img src="https://raw.githubusercontent.com/creativetimofficial/public-assets/master/logos/react-logo.png" width="60" height="60" />](https://www.creative-tim.com/product/material-dashboard-pro-react?ref=readme-mdpr)
+[<img src="https://raw.githubusercontent.com/creativetimofficial/public-assets/master/logos/typescript.png" width="60" height="60" />](https://www.creative-tim.com/product/material-dashboard-2-pro-react-ts?ref=readme-mdpr)
 
-| React |
-| ----- |
-
-| [![Material Dashboard 2 PRO React](https://s3.amazonaws.com/creativetim_bucket/products/80/thumb/material-dashboard-pro-react.jpg?1638882410)](http://demos.creative-tim.com/material-dashboard-pro-react/#/dashboards/analytics?ref=readme-mdpr)
+| React                                                                                                                                                                                                                                  | TypeScript                                                                                                                                                                                                                                                 |
+| -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [![Material Dashboard 2 PRO React](https://s3.amazonaws.com/creativetim_bucket/products/80/thumb/material-dashboard-pro-react.jpg)](http://demos.creative-tim.com/material-dashboard-pro-react/#/dashboards/analytics?ref=readme-mdpr) | [![Material Dashboard 2 PRO React TS](https://s3.amazonaws.com/creativetim_bucket/products/594/thumb/material-dashboard-pro-react-typescript.jpg)](http://demos.creative-tim.com/material-dashboard-2-pro-react-ts/#/dashboards/analytics?ref=readme-mdpr) |
 
 ## Demo
 
@@ -92,7 +92,8 @@ Let us know your thoughts below. And good luck with development!
 
 Quick start options:
 
-- Buy from [Creative Tim](https://www.creative-tim.com/product/material-dashboard-pro-react?ref=readme-mdpr).
+- Buy React Version from [Creative Tim](https://www.creative-tim.com/product/material-dashboard-pro-react?ref=readme-mdpr).
+- Buy React + TypeScript Version from [Creative Tim](https://www.creative-tim.com/product/material-dashboard-2-pro-react-ts?ref=readme-mdpr).
 
 ## Terminal Commands
 
@@ -230,7 +231,7 @@ If you have questions or need help integrating the product please [contact us](h
 
 ## Licensing
 
-- Copyright 2021 [Creative Tim](https://www.creative-tim.com?ref=readme-mdpr)
+- Copyright 2022 [Creative Tim](https://www.creative-tim.com?ref=readme-mdpr)
 - Creative Tim [license](https://www.creative-tim.com/license?ref=readme-mdpr)
 
 ## Useful Links
