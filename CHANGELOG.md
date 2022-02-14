@@ -16,16 +16,16 @@
 
 ### Deleted components
 
+- DefaultNavbarCategories (src/examples/Navbars/DefaultNavbar/DefaultNavbarCategories.js
+- DefaultNavbarLink (src/examples/Navbars/DefaultNavbar/DefaultNavbarLink.js
+- DefaultNavbarMenu (src/examples/Navbars/DefaultNavbar/DefaultNavbarMenu.js
+- Menus (src/examples/Navbars/DefaultNavbar/Menus)
+
 ### Added components
 
 - DefaultNavbarDropdown (src/examples/Navbars/DefaultNavbar/DefaultNavbarDropdown.js)
 
 ### Deleted dependencies
-
-- DefaultNavbarCategories (src/examples/Navbars/DefaultNavbar/DefaultNavbarCategories.js
-- DefaultNavbarLink (src/examples/Navbars/DefaultNavbar/DefaultNavbarLink.js
-- DefaultNavbarMenu (src/examples/Navbars/DefaultNavbar/DefaultNavbarMenu.js
-- Menus (src/examples/Navbars/DefaultNavbar/Menus)
 
 ```
 react-html-parser
