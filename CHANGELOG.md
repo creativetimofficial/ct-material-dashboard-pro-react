@@ -57,7 +57,6 @@ html-react-parser
   "@testing-library/user-event"                12.1.10         ->          13.5.0
   "chroma-js"                                  2.1.2           ->          2.4.2
   "prop-types"                                 15.7.2          ->          15.8.1
-  "react-chartjs-2"                            3.0.4           ->          4.0.1
   "react-images-viewer"                        1.6.7           ->          1.7.1
   "react-router-dom"                           6.0.2           ->          6.2.1
   "react-scripts"                              4.0.3           ->          5.0.0
