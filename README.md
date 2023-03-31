@@ -12,7 +12,8 @@ Material Dashboard 2 PRO React is built with over 200 frontend individual elemen
 This Premium MUI & React Dashboard is coming with prebuilt design blocks, so the development process is seamless,
 switching from our pages to the real website is very easy to be done.
 
-[Nepcha Analytics](https://nepcha.com?ref=readme) for the analytics tool. Nepcha is already integrated with [PRODUCT NAME]. You can use it to gain insights into your sources of traffic.
+Special thanks go to:
+- [Nepcha Analytics](https://nepcha.com?ref=readme) for the analytics tool. Nepcha is already integrated with Material Dashboard PRO React. You can use it to gain insights into your sources of traffic.
 
 View [all components here](https://www.creative-tim.com/learning-lab/react/alerts/material-dashboard/).
 
