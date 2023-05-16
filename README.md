@@ -45,7 +45,6 @@ During the development of this dashboard, we have used many existing resources f
 - [Dropzone](https://www.dropzonejs.com/) - An open source library that provides drag & drop file uploads with image previews.
 - [React Kanban](https://github.com/asseinfo/react-kanban) - Kanban/Trello board lib for React.
 - [React Images Viewer](https://guonanci.github.io/react-images-viewer/) - A simple, responsive images viewer component for ReactJS.
-- [React Quill](https://github.com/zenoamaro/react-quill) - A free, open source WYSIWYG editor built for the modern web.
 - [Formik](https://formik.org/) - Formik is the world's most popular open source form library for React and React Native.
 - [ChromaJS](https://gka.github.io/chroma.js/) - A small-ish zero-dependency JavaScript library for all kinds of color conversions and color scales.
 - [UUID](https://github.com/uuidjs/uuid) - JavaScript library for generating random id numbers.
