@@ -1,5 +1,11 @@
 # Change Log
 
+## [2.2.1] 2024-18-08
+
+- Update dependencies
+- Fix MDEditor issue not rendering value
+- Fix dropdown values not getting submitted
+
 ## [2.2.0] 2023-16-05
 
 - Fix issues
