@@ -1,4 +1,8 @@
 # Change Log
+## [2.3.0] 2024-12-04
+
+- Update dependencies
+- New UI/UX design
 
 ## [2.2.1] 2024-18-08
 
